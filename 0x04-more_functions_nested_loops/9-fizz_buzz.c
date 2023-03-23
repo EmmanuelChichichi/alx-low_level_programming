@@ -15,21 +15,25 @@ int main(void)
 
 	while (n <= 100)
 	{
-		if (n % 3 == 0 && n % 5 == 0)
+		if (n == 1)
 		{
-			printf("%s ", a3);
+			printf("%d ", n);
+		}
+		else if (n % 3 == 0 && n % 5 == 0)
+		{
+			printf(" %s", a3);
 		}
 		else if (n % 3 == 0)
 		{
-			printf("%s ", a1);
+			printf(" %s", a1);
 		}
 		else if (n % 5 == 0)
 		{
-			printf("%s ", a2);
+			printf(" %s", a2);
 		}
 		else
 		{
-			printf("%d ", n);
+			printf(" %d", n);
 		}
 		n++;
 	}
