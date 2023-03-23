@@ -8,35 +8,29 @@
 
 int main(void)
 {
-	int n = 1;
-	char a1[] = "Fizz";
-	char a2[] = "Buzz";
-	char a3[] = "FizzBuzz";
+	int n;
 
-	while (n <= 100)
+	n = 1;
+	printf("%d", n);
+	for (n = 2; n <= 100; n++)
 	{
-		if (n == 1)
+		if ((n % 3 == 0) && (n % 5 == 0))
 		{
-			printf("%d ", n);
-		}
-		else if (n % 3 == 0 && n % 5 == 0)
-		{
-			printf(" %s", a3);
+			printf(" FizzBuzz");
 		}
 		else if (n % 3 == 0)
 		{
-			printf(" %s", a1);
+			printf(" Fizz");
 		}
 		else if (n % 5 == 0)
 		{
-			printf(" %s", a2);
+			printf(" Buzz");
 		}
 		else
 		{
 			printf(" %d", n);
 		}
-		n++;
 	}
-	putchar('\n');
-	return (0);
+	printf("\n");
+	return (0);	
 }
