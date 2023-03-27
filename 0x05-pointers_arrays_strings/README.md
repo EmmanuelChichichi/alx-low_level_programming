@@ -1,1 +1,1 @@
-pointers and arrays, except i barely understand the resources :\
+i hate this task
