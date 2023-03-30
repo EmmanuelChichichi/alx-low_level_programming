@@ -5,6 +5,7 @@
  * @dest: string to be linked
  * @src: string to be linked
  * @n: integer representing elements
+ * Return: char dest
  */
 
 char *_strncat(char *dest, char *src, int n)
