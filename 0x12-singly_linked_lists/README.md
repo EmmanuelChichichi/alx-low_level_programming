@@ -1,6 +1,6 @@
-#REPOSITORY CONTAINING CODE FOR 0x12-singly_linked_lists
+# REPOSITORY CONTAINING CODE FOR 0x12-singly_linked_lists
 
-######the following files are included:
+###### the following files are included:
 * 0-print_list.c
 * 1-list_len.c
 * 2-add_node.c
