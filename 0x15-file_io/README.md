@@ -5,7 +5,6 @@
 * Description
 * Files
 * Usage
-* Examples
 
 ## Description
 The programs in this project demonstrate how to work with files in C using the standard I/O library functions, such as ```fopen()```, ```fgets()```, ```fprintf()```, and ```fclose()```. These functions are used to open files, read data from them, write data to them, and close them when finished.
